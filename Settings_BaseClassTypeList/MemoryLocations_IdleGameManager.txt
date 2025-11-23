@@ -159,7 +159,7 @@ game.gameInstances.Controller.formation.slots.heroAlive
 #. ---When this value increases from 0 to 1 a briv jump animation can occur. It is possible a future transtiion override occurs increasing the Count
 #. --- to a value greater than 1. But for standard gem farm team should be goood for a while.
 #. --- quick transitions increment from 0 to 1, but more quickly.
-game.gameInstances.Controller.formation.TransitionOverrides
+
 game.gameInstances.Controller.formation.transitionDir
 game.gameInstances.Controller.formation.inAreaTransition
 game.gameInstances.Controller.formation.numAttackingMonstersReached
