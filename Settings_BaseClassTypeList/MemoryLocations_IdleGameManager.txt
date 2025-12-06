@@ -187,6 +187,7 @@ game.gameInstances.Screen.uiController.bottomBar.formationSaveMenu.formationButt
 game.gameInstances.Screen.uiController.bottomBar.formationSaveMenu.clearButton._x
 game.gameInstances.Screen.uiController.bottomBar.formationSaveMenu.clearButton._y
 game.gameInstances.Screen.uiController.bottomBar.heroPanel.clickDamageBox.maxLevelUpAllowed
+game.gameInstances.Screen.uiController.bottomBar.heroPanel.clickDamageBox.levelUpAmount
 game.gameInstances.Screen.uiController.bottomBar.heroPanel.clickDamageBox.levelUpButtonDisplay.lastCostText
 game.gameInstances.Screen.uiController.ultimatesBar.ultimateItems.hero.def.ID
 game.gameInstances.Screen.uiController.ultimatesBar.ultimateItems.ultimateAttack.internalCooldownTimer
@@ -204,8 +205,6 @@ game.gameInstances.timeScales.Multipliers
 game.gameUser.Loaded
 game.gameInstances.isDirty
 game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.upgradeButton.enabled
-game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.levelUpInfoHandler
-game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.levelUpInfoHandler.OverrideLevelUpAmount
 game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.lastGold
 game.gameInstances.Controller.formation.slots.slotDef
 game.gameInstances.Controller.formation.slots.slotDef.Column
