@@ -64,6 +64,7 @@ game.gameInstances.Controller.userData.ResetCurrencyHandler.isForceConverting
 game.gameInstances.Controller.userData.ResetUpgradeHandler.activeEffectsByInstance.def.<BaseEffectKeyParams>k__BackingField.OriginalEffectKey
 
 game.gameInstances.Controller.userData.FeatHandler.heroFeatSlots.ID
+game.gameInstances.Controller.userData.FeatHandler.heroFeatSlots.Name
 
 game.gameInstances.Controller.userData.SaveHandler.currentSaveCallId
 game.gameInstances.Controller.userData.SaveHandler.currentSave.Instances
