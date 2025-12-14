@@ -249,6 +249,12 @@ game.gameInstances.ActiveCampaignData.ultFalloffPeriodMod
 
 #. Transition timescale multiplier so we can work out the real game speed when Diana is in use
 game.gameInstances.areaTransitionTimeScaleMultiplier
+
+#. Campaign Favour
+game.gameInstances.Controller.userData.ResetCurrencyHandler.ResetCurrencyDefs.CurrentAmount
+game.gameInstances.Controller.userData.ResetCurrencyHandler.ResetCurrencyDefs.ID
+game.gameInstances.ActiveCampaignData.adventureDef._campaignDef.ResetCurrencyID
+
 #. ---=========================================
 #. ---Irisiri IBM only
 #. ---=========================================
@@ -257,11 +263,5 @@ game.gameInstances.areaTransitionTimeScaleMultiplier
 #!! CrusadersGame.Effects.EllywickDeckOfManyThingsHandler
 game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.parentEffectKeyHandler.activeEffectHandlers.cardsInHand
 game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.parentEffectKeyHandler.activeEffectHandlers.cardsInHand.CardType
-#!! CrusadersGame.Effects.ThelloraPlateausOfUnicornRunHandler
-game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.parentEffectKeyHandler.activeEffectHandlers.baseFavorExponent
 #!! CrusadersGame.Effects.EllywickCallOfTheFeywildHandler
 game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.parentEffectKeyHandler.activeEffectHandlers.IsUltimateActive
-#!! CrusadersGame.Effects.BrivUnnaturalHasteHandler
-game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.parentEffectKeyHandler.activeEffectHandlers.areaSkipChance
-#!! CrusadersGame.Effects.BrivUnnaturalHasteHandler
-game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.parentEffectKeyHandler.activeEffectHandlers.areaSkipAmount
