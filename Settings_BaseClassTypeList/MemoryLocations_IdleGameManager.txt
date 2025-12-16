@@ -255,6 +255,10 @@ game.gameInstances.Controller.userData.ResetCurrencyHandler.ResetCurrencyDefs.Cu
 game.gameInstances.Controller.userData.ResetCurrencyHandler.ResetCurrencyDefs.ID
 game.gameInstances.ActiveCampaignData.adventureDef._campaignDef.ResetCurrencyID
 
+#. Hero Instance Checks
+game.gameInstances.Controller.userData.HeroHandler.heroes.<ActiveGameInstanceId>k__BackingField
+game.gameInstances.<InstanceUserData>k__BackingField.InstanceId
+
 #. ---=========================================
 #. ---Irisiri IBM only
 #. ---=========================================
