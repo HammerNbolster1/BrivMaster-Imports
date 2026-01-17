@@ -330,14 +330,13 @@ def FindCollectionValueType(classType, key = False):
     global exportedJson
     if classType is None:
         return None
-    match = re.search("<.*>", classType)
+    match = re.search("<([^<>,]*(?:<.+>)?)(?:,([^<>,]*(?:<.+>)?))?>", classType) # Irisiri - match 4 cases for dictionaries - <K,V> <K<A,B>,V> <K,V<A,B>> <K<A,B>,V<C,D>>, we want the K,V parts with the <A,B> if present. For other collections only one part will be present, which will be returned in all cases (as that seems to be how the script works normally - ideally it doesn't ask for a key for a list, or value for a hashset)
+    #print("FCVT checking " + classType + " for key " + str(key))
     if match is not None:
-        currClassType = match.group(0)
-        currClassType = currClassType[1:-1] # trim <> from match edges 
-        if key:
-            dicClassType = currClassType.split(",",1)[0]   
+        if match.group(2) is None or key: #If we have 2 matches then the first is the key, or if asked for the key and only have 1 then that must also be the key
+            dicClassType = match.group(1)
         else:
-            dicClassType = currClassType.split(",",1)[-1:][0]      
+            dicClassType = match.group(2) 
         # Special test to check if a value is an enum.
         parentTest = dicClassType.split(".")
         parentTest = ".".join(parentTest[:-1]) + "+" + parentTest[-1]
