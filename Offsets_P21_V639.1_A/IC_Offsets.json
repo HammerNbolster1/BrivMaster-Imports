@@ -1,1 +1,51 @@
-""
+{
+	"CrusadersGameDataSet": {
+		"moduleAddress": 7671840,
+		"moduleOffset": [
+			56,
+			64,
+			2720
+		],
+		"staticOffset": ""
+	},
+	"DialogManager": {
+		"moduleAddress": 7671840,
+		"moduleOffset": [
+			56,
+			64,
+			2912
+		],
+		"staticOffset": ""
+	},
+	"EngineSettings": {
+		"moduleAddress": 7816472,
+		"moduleOffset": [
+			672
+		],
+		"staticOffset": 3840
+	},
+	"GameSettings": {
+		"moduleAddress": 10564936,
+		"moduleOffset": [
+			352,
+			2152,
+			160,
+			432
+		],
+		"staticOffset": 592
+	},
+	"IdleGameManager": {
+		"moduleAddress": 7655936,
+		"moduleOffset": [
+			3872
+		],
+		"staticOffset": ""
+	},
+	"Import_Revision": "A",
+	"Import_Version_Major": "639",
+	"Import_Version_Minor": ".1",
+	"Platform": "21",
+	"Pointer_Revision": "A",
+	"Pointer_Version_Major": 633,
+	"Pointer_Version_Minor": ".1"
+}
