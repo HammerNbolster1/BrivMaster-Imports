@@ -103,7 +103,7 @@ IBM_Import_Generate()
 	offSetOutput:={}
 	offSetOutput["Pointers"]:=json.Load(pointerRaw)
 	offSetOutput["Imports"]:=gameObjectFiles
-	offSetOutput["Pointers","Import_Version_Major"]:=gameVersionMajor
+	offSetOutput["Pointers","Import_Version_Major"]:=gameVersionMajor+0 ;Try to keep this an Int...
 	offSetOutput["Pointers","Import_Version_Minor"]:=gameVersionMinor
 	offSetOutput["Pointers","Import_Revision"]:=revision
 	offSetOutput["Pointers","Platform"]:=gamePlatform
