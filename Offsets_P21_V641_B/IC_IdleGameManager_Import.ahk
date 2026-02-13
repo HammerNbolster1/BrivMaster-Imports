@@ -81,6 +81,8 @@ this.game.gameInstances.Controller.userData.ResetCurrencyHandler.ResetCurrencyDe
 this.game.gameInstances.Controller.userData.ResetCurrencyHandler.ResetCurrencyDefs.ID:=New GameObjectStructure(this.game.gameInstances.Controller.userData.ResetCurrencyHandler.ResetCurrencyDefs,"Int",[16])
 this.game.gameInstances.Controller.area:=New GameObjectStructure(this.game.gameInstances.Controller,"Int",[24])
 this.game.gameInstances.Controller.area.Active:=New GameObjectStructure(this.game.gameInstances.Controller.area,"Char",[484])
+this.game.gameInstances.Controller.area.activeMonsters:=New GameObjectStructure(this.game.gameInstances.Controller.area,"List",[72])
+this.game.gameInstances.Controller.area.activeMonsters._CollectionValType:="CrusadersGame.GameScreen.Monster"
 this.game.gameInstances.Controller.areaTransitioner:=New GameObjectStructure(this.game.gameInstances.Controller,"Int",[64])
 this.game.gameInstances.Controller.areaTransitioner.IsTransitioning_k__BackingField:=New GameObjectStructure(this.game.gameInstances.Controller.areaTransitioner,"Char",[56])
 this.game.gameInstances.Controller.areaTransitioner.transitionDirection:=New GameObjectStructure(this.game.gameInstances.Controller.areaTransitioner,"Int",[60])
