@@ -24,8 +24,13 @@
 		],
 		"staticOffset": ""
 	},
-	"Import_Revision": "B",
+<<<<<<<< HEAD:Offsets_P21_V643_A/IC_Offsets.json
+	"Import_Revision": "A",
+	"Import_Version_Major": 643,
+========
+	"Import_Revision": "C",
 	"Import_Version_Major": 642,
+>>>>>>>> upstream/main:Offsets_P11_V642_C/IC_Offsets.json
 	"Import_Version_Minor": "",
 	"Platform": "21",
 	"Pointer_Revision": "J",
