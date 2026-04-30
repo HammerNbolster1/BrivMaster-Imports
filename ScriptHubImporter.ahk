@@ -37,7 +37,14 @@ ExitApp
 IBM_Import_Generate()
 {
 	if (g_usingArgs)
-		fileName:=A_Args[1]
+	{
+    	fileName := A_Args[1]
+
+    	if (fileName = "p11")
+        	fileName := "ScriptHubExport64_Steam.json"
+   	else if (fileName = "p21")
+        	fileName := "ScriptHubExport64_EGS.json"
+	}
 	else
 		GuiControlGet, fileName,, IBM_Import_FileSelect
 	if(!g_SourceFiles.HasKey(fileName))
