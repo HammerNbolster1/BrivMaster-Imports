@@ -2,10 +2,10 @@
 	"EngineSettings":{
         "moduleAddress":7815984,
         "moduleOffset":[
-            784,
-            672
+            528,
+            288
         ],
-        "staticOffset":3840
+        "staticOffset":3648
     },
 	"GameSettings":{
 		"moduleAddress":10564936,
